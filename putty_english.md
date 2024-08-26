@@ -41,7 +41,7 @@ Once the download is complete, proceed with the following steps:
 
 In this article, you’ll find a step-by-step guide on how to transfer files between Windows servers using the SSH protocol with PuTTY.
 
->⚠️ **Important**
+>⚠️ **Important** <br>
 >If you haven't installed PuTTY yet, access [How to install PuTTY](https://fakewebsiteportfolio.com) tutorial.
 
 ### Step 1: Set up OpenSSH on Windows
@@ -78,7 +78,7 @@ To confirm a successful transfer, the screen will display the message **"1 file(
 
 This command can also be used to rename a file. To do so, specify the same destination path as the original, but change the filename to the desired one. For example: `move C:\Users\username\Documents\file.txt C:\Users\username\Documents\newfile.txt`
 
->❕ **Info**
+>❕ **Info** <br>
 If the file name contains spaces, enclose both paths in quotes. For example: `move "C:\Users\username\Documents\file example.txt" "C:\Users\username\Destination"`
 
 If you want to perform other remote actions using PuTTY, access [PuTTY commands](https://fakewebsiteportfolio.com).
@@ -88,7 +88,7 @@ If you want to perform other remote actions using PuTTY, access [PuTTY commands]
 
 In this article, you will find information about the Session screen, which is the primary screen in PuTTY. This screen contains essential settings for establishing connections between servers.
 
->❕ **Info**
+>❕ **Info** <br>
 For additional explanations about the screen, click on the **?** icon located in the upper-right corner. A question mark will appear next to the mouse cursor, indicating that the help mode has been enabled. Once enabled, clicking on any field will open a window displaying information about it.
 
 #### Basic options for your PuTTY session
